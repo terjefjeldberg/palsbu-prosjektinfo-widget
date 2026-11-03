@@ -1,0 +1,33 @@
+PÅLSBU DAM – GENERELL PROSJEKTINFO
+
+Åpne Palsbu-prosjektinfo-widget.html i nettleseren for å se widgeten.
+Bildet og utformingen er innebygd i denne filen. Ingen installasjon kreves.
+
+For publisering:
+Last opp innholdet i Palsbu-prosjektinfo-Cloudflare-upload.zip til deres
+statiske HTTPS-webhotell, for eksempel Cloudflare Pages Direct Upload.
+ZIP-filen inneholder index.html og palsbu-dam.jpg direkte i roten.
+Bruk den publiserte HTTPS-adressen i StreamBIMs widgetkonfigurasjon.
+Widgeten tilpasser seg tilgjengelig bredde og ruller ved behov.
+Forslag til starthøyde: 1000 px. En smal widget vil kreve mer rulling.
+
+Eksempel på iframe (erstatt adressen med deres publiserte adresse):
+<iframe src="https://DERES-DOMENE/" title="Generell prosjektinfo – Pålsbu dam"
+  style="width:100%;height:1000px;border:0"></iframe>
+
+Kontroller at vertens innstillinger tillater iframe fra deres StreamBIM-domene.
+Eksterne lenker åpnes i ny fane. E-post og telefon bruker enhetens apper.
+Ingen sporing, cookies, eksterne skrifter eller skript er lagt inn.
+
+Innhold, kontaktperson og tidsplan er kontrollert mot Statkrafts prosjektside
+3. november 2026. Oppdateres manuelt; datoen endres ikke automatisk.
+Bildet er hentet fra den samme prosjektsiden.
+Tidsplanen er merket som foreløpig.
+
+Kilde:
+https://www.statkraft.no/kraftproduksjon/prosjekter/palsbu-oppgradering/
+
+Kontrollert i nettleser i vanlig og 360 px bredde: bilde, innhold, lenkemål,
+dokumentmeny og fravær av horisontal rulling ved smal bredde.
+Innbygging i selve StreamBIM-miljøet er ikke testet.
+Widgeten er ikke publisert; filene er klare for opplasting.
